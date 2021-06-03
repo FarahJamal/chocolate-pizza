@@ -1,0 +1,86 @@
+nav ul li {
+    display: inline-block;
+    float: right;
+
+}
+li{
+    padding: 2px;
+}
+#imgRss{
+padding-left: 10px;
+}
+#logoUl{
+    float: left;
+}
+#logoUl li h1,p{
+    margin: 0;
+
+}
+#logoUl li h1{
+    font-family: 'Dancing Script', cursive;
+}
+#smallImg{
+    padding-right: 50px;
+}
+hr {
+  border-top:  dashed grey ;
+  width:75%;
+  margin:0 auto
+}
+header{
+    padding-bottom: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+#mainP{
+    padding-left: 190px;
+    padding-right: 190px;
+    margin-top: 50px;
+}
+#para{
+    padding-left: 190px;
+    padding-right: 190px;
+    margin-top: 50px;   
+}
+#list{
+    padding-left: 190px;
+    padding-right: 190px;
+    margin-top: 50px; 
+
+}
+ #image1{
+    float: right;
+}
+#image2 {
+    width: 100%;
+    padding-top: 50px;
+}
+#listImg{
+    width: 100%;
+    padding-top: 30px;
+}
+#mainP h1,p{
+    
+    margin: 0;
+
+}
+#column-1{
+    position: absolute;
+   
+    list-style-type: square;
+    bottom: 30%;
+    left: 50%;
+    margin-left:150px ;
+  }
+  #column-2{
+    position: absolute;
+  
+    list-style-type: square;
+    bottom: 30%;
+    right: 50%;
+  }
+
+.container {
+    position: relative;
+  }
+
