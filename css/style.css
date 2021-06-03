@@ -83,4 +83,100 @@ header{
 .container {
     position: relative;
   }
+ 
+#footer{
+        padding-left:150px ;
+        padding-top: 30px;
+}
+#footer2{
+    float:right;
+    
+}
+#bt{
+    float: right;
+    background-color: #aa3c30;
+    
+}
+#footerPart {
+    display: inline-block;
+    margin-top: 20px;
+}
 
+#footerPart img {
+    margin-right: 5%;
+    float: left;
+}
+
+#footerPart {
+    padding-left: 150px;
+    width: 100%;
+    display: inline-block;
+}
+
+#footerPart p {
+    margin-top: 5%;
+    margin-right: 7%;
+    display: inline;
+    margin-top: 0px;
+    text-align: left;
+
+}
+
+#P1 {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: serif;
+    opacity: 60%;
+}
+
+#P2 {
+    font-size: 20px;
+    font-family: serif;
+    opacity: 50%;
+    margin-right:150px ;
+    text-transform:unset ;
+    float: left;
+   
+}
+
+    
+
+#final{
+    text-align: center;
+
+}
+#final:before,#final:after{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 50%;
+    border-top-style: solid;
+    border-top-width: 0.5px;
+
+
+}
+#final::before{
+    opacity: 20%;
+    right: 0em;
+    margin-left: -50%;
+
+}
+#final::after{
+    opacity: 20%;
+    left: 0em;
+    margin-right: -50%;
+    
+}
+footer p {
+    text-align: center;
+}
+button{
+ 
+   float: right;
+    text-align: center;; 
+    background-color: #BC7058;
+    margin-right: 280px;
+    padding:20px 30px;
+    color: white;
+}
