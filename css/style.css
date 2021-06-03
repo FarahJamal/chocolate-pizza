@@ -17,43 +17,39 @@ padding-left: 10px;
 
 }
 #logoUl li h1{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
 }
 #smallImg{
-    padding-right: 50px;
 }
 hr {
-  border-top:  dashed grey ;
-  width:75%;
-  margin:0 auto
+    height: 10px;
+    color: rgb(168, 168, 168);
+    color: rgb(194, 194, 194);
+    background-image: linear-gradient(45deg, transparent, transparent 25%, currentColor 20%, currentColor 50%, transparent 50%, transparent 75%, currentColor 75%,transparent 100%, currentColor 100%,transparent 125%, currentColor 125%,transparent 150%, currentColor 150%);
+    background-size: 6px 6px;
+    width: 100%;
+    height: 13px;
+    border: none;
 }
+
 header{
     padding-bottom: 100px;
     padding-left: 120px;
     padding-right: 120px;
 }
-#mainP{
-    padding-left: 190px;
-    padding-right: 190px;
-    margin-top: 50px;
-}
-#para{
-    padding-left: 190px;
-    padding-right: 190px;
-    margin-top: 50px;   
-}
-#list{
-    padding-left: 190px;
-    padding-right: 190px;
-    margin-top: 50px; 
 
-}
+#para{
+   
+    color: rgb(155, 154, 154);
+    font-size: larger;
+ }
+
  #image1{
     float: right;
 }
 #image2 {
     width: 100%;
-    padding-top: 50px;
+    text-align: center;
 }
 #listImg{
     width: 100%;
@@ -61,28 +57,52 @@ header{
 }
 #mainP h1,p{
     
-    margin: 0;
+    width: 100%;
+
 
 }
-#column-1{
-    position: absolute;
-   
-    list-style-type: square;
-    bottom: 30%;
-    left: 50%;
-    margin-left:150px ;
-  }
-  #column-2{
-    position: absolute;
-  
-    list-style-type: square;
-    bottom: 30%;
-    right: 50%;
-  }
+#mainP h1{
+    
+margin-top: 20px;
+margin-bottom: 0px;
+}
+
+
 
 .container {
-    position: relative;
-  }
+    border: 1px solid rgb(235, 229, 229);
+    padding: 3px;
+    box-shadow: 0px 7px rgb(216, 211, 211);
+    margin-top: 40px;
+    width: 100%;
+    background-image: url('../lab-assets/list-bg.png');
+    background-size: 100%;
+    max-width: 100%;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+
+#column-2{
+    float: left;
+    padding-left: 45px;
+    width: 50%;
+}
+input {
+    margin-top: 23px;
+    margin-left: 20px;
+}
+
+label {
+    font-family: cursive;
+    color: #896A61;
+font-size: larger;
+font-weight: bold;
+}
+body {
+    margin-left: 13%;
+    margin-right: 13%;
+}
  
 #footer{
         padding-left:150px ;
